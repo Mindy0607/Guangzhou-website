@@ -15,7 +15,7 @@ body {
 }
 
 #hero{
-    background-image: url("/images/guangzhou.jpeg");
+    background-image: url("images/guangzhou.jpeg");
     background-size: cover;
     height:350px;
     margin: 0px;
