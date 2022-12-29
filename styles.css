@@ -1,0 +1,147 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#hero{
+    background-image: url("/images/guangzhou.jpeg");
+    background-size: cover;
+    height:350px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Guangzhou{
+    background: #2a9d8f;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+#Location{
+    background: #457b9d;
+    padding: 3px 3px;
+    border-radius: 5px;
+    width: 450px;
+    
+}
+
+h2{
+    font-size: 18px;
+}
+
+
+
+#section{
+    margin: 0px;
+    background: #F1FAEE;
+    height:310px;
+    
+}
+
+.item{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: flex;
+    
+}
+.imgbody{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+h3{
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+
+.activity-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+.activities{
+    height: 32px;
+    width: 230px;
+    margin: 0 auto;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.activity-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.des{
+    height: 32px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.photo{
+    width:300px;
+    border-radius: 8px;
+}
+
+.card{
+    display:flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width:600px;
+    height: 294px;
+    border: 2px solid #fefae0;
+    background: #fefae0;
+    padding: 5px 20px;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 5px solid #f8ad9d;
+}
+
+.into{
+    padding: 30px;
+    text-align: center;
+}
+
+.into-title{
+    font-size:22px; 
+}
+
+.name{
+    background:#f8ad9d;
+    width:48px;
+    margin: auto;
+    border-radius: 3px;
+    padding:2px;
+    
+}
